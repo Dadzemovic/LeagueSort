@@ -24,7 +24,7 @@ function curlFetch($url) {
 }
 
 // Recurring function to grab and store player data
-function storePlayerData($playerID = 1400) {
+function storePlayerData($playerID = 1) {
 	global $dbh;
 	$count = $playerID;
 	$dataStats = curlFetch("http://prod.api.pvp.net/api/lol/na/v1.2/stats/by-summoner/{$count}/summary?season=SEASON3&api_key=bd0f7d3f-1c3a-4510-baeb-7bd9c63e8fd7");
