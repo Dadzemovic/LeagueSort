@@ -3,7 +3,7 @@
 // REQUIRES that curl is enabled in your php.ini file, or alternatively use file_get_contents()
 
 // Your Riot API key here
-$api_key = '34305cf4-4529-4834-89da-089b7ba0466f';
+$api_key = '';
 
 // Connect to database (w/ persistent connection)
 $user = 'root';
